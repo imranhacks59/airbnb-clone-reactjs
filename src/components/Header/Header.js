@@ -4,6 +4,7 @@ import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import LanguageIcon from '@mui/icons-material/Language';
 import ProfileMenu from './ProfileMenu';
+import BottomNav from './BottomNav';
 const Header = () => {
   return (
     <div className='header-container'>
@@ -29,6 +30,7 @@ const Header = () => {
                 <ProfileMenu />
             </div>
         </div>
+        <BottomNav />
     </div>
   )
 }

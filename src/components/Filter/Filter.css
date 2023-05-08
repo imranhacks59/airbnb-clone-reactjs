@@ -1,0 +1,42 @@
+.filter-data{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    padding: 1rem 3rem;
+    border-top: 1px solid var(--grey);
+    margin-bottom: 20px;
+    /* position: fixed; */
+    /* background-color: var(--white); */
+}
+
+.link-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin-right: 2rem;
+     min-width: 85px;
+    opacity: 0.5;
+    border-bottom: 1px solid var(--white);
+}
+
+.link-box:hover,
+.selected-box{
+    opacity: 1;
+    border-bottom: 1px solid var(--grey);
+    transition: all 0.25s;
+}
+
+.links-img{
+    height: 1.5rem;
+    width: 1.5rem;
+  
+}
+
+.links-label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
